@@ -20,8 +20,8 @@ RUN curl -H 'Cache-Control: no-cache' \
     -fsSL https://ollama.com/install.sh | sh
 #Install anythingllm
 RUN curl -H 'Cache-Control: no-cache' \
-    https://s3.us-west-1.amazonaws.com/public.useanything.com/latest/AnythingLLMDesktop.AppImage -o /tmp/AnythingLLMDesktop.AppImage \
-    chmod a+x /tmp/AnythingLLMDesktop.AppImage \
+    https://s3.us-west-1.amazonaws.com/public.useanything.com/latest/AnythingLLMDesktop.AppImage -o /tmp/AnythingLLMDesktop.AppImage && \
+    chmod a+x /tmp/AnythingLLMDesktop.AppImage && \
     /tmp/AnythingLLMDesktop.AppImage --appimage-extract         
 
 # Go back to Jarvice install
