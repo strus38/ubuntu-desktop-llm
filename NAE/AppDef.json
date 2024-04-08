@@ -3,6 +3,7 @@
     "description": "Ubuntu Linux for Intel with ollama and anythingLLM",
     "author": "Nimbix, Inc.",
     "licensed": true,
+    "appdefversion": 2,
     "classifications": [
         "Software Development",
         "AI"
