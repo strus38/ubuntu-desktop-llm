@@ -1,4 +1,4 @@
-FROM ubuntu:mantic
+FROM ubuntu:jammy
 LABEL maintainer="Nimbix, Inc."
 
 # Update SERIAL_NUMBER to force rebuild of all layers (don't use cached layers)
